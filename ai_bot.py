@@ -1,7 +1,7 @@
 # This Python file uses the following encoding: utf-8
 import telebot
 import openai 
-from envs import openaikey, proxy_url, telekey
+from envs import openaikey, telekey
 
 openai.api_key = openaikey 
 bot = telebot.TeleBot(telekey)
